@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# My settings
+LOGIN_URL = '/users/login/'
+LOGOUT_REDIRECT_URL = '/'
 
 # Application definition
 
@@ -39,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # My apps
     'Learning_logs',
+    'users',
 ]
 
 MIDDLEWARE = [
