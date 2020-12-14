@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'p8cxjq5!d2wwjbke*r2qser#%1+2ftszby=lo!9lq59czke1=='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['owen-learning-log.herokuapp.com/']
 
 # My settings
 LOGIN_URL = '/users/login/'
@@ -68,7 +68,7 @@ ROOT_URLCONF = 'Learning_log.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'Learning_log/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

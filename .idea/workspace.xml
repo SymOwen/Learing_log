@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b66662-1958-4f60-830e-c88b1d8679ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Learning_log/static/placeholder.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learning_log/templates/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning_log/Learning_log/static/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning_log/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_log/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +119,7 @@
       <workItem from="1607614399068" duration="363000" />
       <workItem from="1607614775888" duration="33257000" />
       <workItem from="1607857665964" duration="3053000" />
-      <workItem from="1607862626268" duration="22184000" />
+      <workItem from="1607862626268" duration="23484000" />
     </task>
     <task id="LOCAL-00001" summary="finish_HomePage">
       <created>1607615869337</created>
