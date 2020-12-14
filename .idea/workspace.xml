@@ -1,33 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69b66662-1958-4f60-830e-c88b1d8679ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Learning_logs/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learning_logs/migrations/0003_auto_20201213_0730.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/edit_entry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/new_entry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/new_topic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+    <list default="true" id="69b66662-1958-4f60-830e-c88b1d8679ce" name="Default Changelist" comment="Ready for deployment to heroku">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Learning_log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Learning_log.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Learning_log/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_log/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning_log/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_log/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning_logs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_logs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning_log/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_log/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/new_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/new_topic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/topic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_logs/templates/Learning_logs/topics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning_logs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_logs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning_logs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_logs/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +78,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -140,7 +129,9 @@
       <workItem from="1607612959696" duration="109000" />
       <workItem from="1607613120229" duration="1164000" />
       <workItem from="1607614399068" duration="363000" />
-      <workItem from="1607614775888" duration="32020000" />
+      <workItem from="1607614775888" duration="33257000" />
+      <workItem from="1607857665964" duration="3053000" />
+      <workItem from="1607862626268" duration="19013000" />
     </task>
     <task id="LOCAL-00001" summary="finish_HomePage">
       <created>1607615869337</created>
@@ -156,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607695071717</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finish chapter 19">
+      <created>1607847430586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607847430586</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,9 +173,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finish_HomePage" />
     <MESSAGE value="finish chapter 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish chapter 18" />
+    <MESSAGE value="finish chapter 19" />
+    <MESSAGE value="Ready for deployment to heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready for deployment to heroku" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
