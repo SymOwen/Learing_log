@@ -26,7 +26,7 @@ SECRET_KEY = 'p8cxjq5!d2wwjbke*r2qser#%1+2ftszby=lo!9lq59czke1=='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['owen-learning-log.herokuapp.com']
+ALLOWED_HOSTS = ['owen-learning-log.herokuapp.com', 'localhost']
 
 # My settings
 LOGIN_URL = '/users/login/'
